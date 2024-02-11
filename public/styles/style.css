@@ -1,0 +1,44 @@
+body {
+    background-color: #B3FFAE;
+}
+
+.header {
+    padding: 0 1%;
+    background-color: aquamarine;
+    margin: 0%;
+}
+
+.icon-img {
+    width: 30px;
+    margin-right: 5px;
+}
+
+.mb-3 {
+    padding: 0 50% 0 1%;
+}
+
+h2 {
+    margin-left: 1%;
+}
+
+.tagLine {
+    margin-left: 1%;
+    color: mediumspringgreen;
+}
+
+.title {
+    margin-left: 1%;
+    color: #B19470;
+}
+
+h3 {
+    margin-left: 1%;
+    color: #7D7C7C;
+}
+
+p {
+    margin-left: 1%;
+    margin-right: 2%;
+    margin-top: 2%;
+    color: #607274;
+}
