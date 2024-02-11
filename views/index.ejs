@@ -1,0 +1,15 @@
+<%- include("header.ejs") %>
+
+<h1 class="tagLine">Welcome to "Bloglost - lost in blogs"</h1>
+
+<% if(formD && formD.length > 0) { %>
+  <ul>
+    <% formD.forEach(function(form, index) { %>
+      <li><a href="/blog/<%= index %>"><%= form.title %></a></li>
+    <% }); %>
+  </ul>
+<% } else { %>
+  <p>No posts available.</p>
+<% } %>
+
+<%- include("footer.ejs") %>

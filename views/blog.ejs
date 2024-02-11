@@ -1,0 +1,11 @@
+<%- include("header.ejs") %>
+
+<% if(formD && formD[t]) { %>
+  <h2><%= formD[t].title %></h2>
+  <p>Author: <%= formD[t].author %></p>
+  <p><%= formD[t].blog %></p>
+<% } else { %>
+  <p>Post not found.</p>
+<% } %>
+
+<%- include("footer.ejs") %>
