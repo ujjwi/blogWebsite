@@ -1,9 +1,11 @@
 <%- include("header.ejs") %>
 
 <% if(formD && formD[t]) { %>
-  <h2><%= formD[t].title %></h2>
-  <p>Author: <%= formD[t].author %></p>
-  <p><%= formD[t].blog %></p>
+
+  <h2> <%= formD[t].title %> </h2>
+  <strong class="blogAuthor"> Author: <%= formD[t].author %> </strong>
+  <p class="bolgContent"> <%= formD[t].blog %> </p>
+
 <% } else { %>
   <p>Post not found.</p>
 <% } %>
