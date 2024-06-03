@@ -36,7 +36,3 @@ A simple blog posting website where the user can post his blogs and view it.
 
 Contributions to Blog Website are welcome! In case you have any ideas for new features, improvements, or bug fixes, please open an issue or submit a pull request.
 
-## License
-
-This project is licensed under the MIT License - see the `LICENSE.md` file for details
-
